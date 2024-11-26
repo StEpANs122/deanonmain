@@ -29,7 +29,7 @@ def logo():
         print(line)
         time.sleep(0.1)
 
-    print(Style.BRIGHT + ' Разработчик: nXoji      v0.1      Made in Ukraine' + reset)
+    print(Style.BRIGHT + ' Разработчик:   Степан Хохлов   v0.1      Made in pizdeц' + reset)
     time.sleep(2)
 
 
@@ -37,12 +37,16 @@ def menu():
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
         print('''
+
+        
  ╭━╮╭━┳━━━┳━╮╱╭┳╮╱╭╮
  ┃┃╰╯┃┃╭━━┫┃╰╮┃┃┃╱┃┃
  ┃╭╮╭╮┃╰━━┫╭╮╰╯┃┃╱┃┃
  ┃┃┃┃┃┃╭━━┫┃╰╮┃┃┃╱┃┃
  ┃┃┃┃┃┃╰━━┫┃╱┃┃┃╰━╯┃
- ╰╯╰╯╰┻━━━┻╯╱╰━┻━━━╯''')
+ ╰╯╰╯╰┻━━━┻╯╱╰━┻━━━╯
+ 
+ ''')
         print(' Вы в главном меню\n 1) Проверка по нику\n 2) Проверка IP-adress \n'
               ' 3) Проверка BSSID\n 4) Проверка по номеру телефона')
         print(' 0) ! ВЫХОД !')
